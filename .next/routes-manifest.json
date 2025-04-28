@@ -1,0 +1,231 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "/patients",
+  "redirects": [
+    {
+      "source": "/patients/",
+      "destination": "/patients",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/patients/$"
+    },
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about-hospital",
+      "regex": "^/about\\-hospital(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-hospital(?:/)?$"
+    },
+    {
+      "page": "/about-us",
+      "regex": "^/about\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us(?:/)?$"
+    },
+    {
+      "page": "/appointments",
+      "regex": "^/appointments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments(?:/)?$"
+    },
+    {
+      "page": "/bookappointment",
+      "regex": "^/bookappointment(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/bookappointment(?:/)?$"
+    },
+    {
+      "page": "/change-password",
+      "regex": "^/change\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/change\\-password(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/doctors",
+      "regex": "^/doctors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/doctors(?:/)?$"
+    },
+    {
+      "page": "/facilities",
+      "regex": "^/facilities(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/facilities(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/gallery",
+      "regex": "^/gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gallery(?:/)?$"
+    },
+    {
+      "page": "/health-resources",
+      "regex": "^/health\\-resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/health\\-resources(?:/)?$"
+    },
+    {
+      "page": "/medical-records",
+      "regex": "^/medical\\-records(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/medical\\-records(?:/)?$"
+    },
+    {
+      "page": "/news-events",
+      "regex": "^/news\\-events(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/news\\-events(?:/)?$"
+    },
+    {
+      "page": "/patient-profile",
+      "regex": "^/patient\\-profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient\\-profile(?:/)?$"
+    },
+    {
+      "page": "/payments",
+      "regex": "^/payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/payments(?:/)?$"
+    },
+    {
+      "page": "/profile",
+      "regex": "^/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile(?:/)?$"
+    },
+    {
+      "page": "/profile/info",
+      "regex": "^/profile/info(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile/info(?:/)?$"
+    },
+    {
+      "page": "/profile/payments",
+      "regex": "^/profile/payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile/payments(?:/)?$"
+    },
+    {
+      "page": "/profile/settings",
+      "regex": "^/profile/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile/settings(?:/)?$"
+    },
+    {
+      "page": "/profile/share",
+      "regex": "^/profile/share(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile/share(?:/)?$"
+    },
+    {
+      "page": "/profile-settings",
+      "regex": "^/profile\\-settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile\\-settings(?:/)?$"
+    },
+    {
+      "page": "/profile-setup",
+      "regex": "^/profile\\-setup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile\\-setup(?:/)?$"
+    },
+    {
+      "page": "/search-doctor",
+      "regex": "^/search\\-doctor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/search\\-doctor(?:/)?$"
+    },
+    {
+      "page": "/signup",
+      "regex": "^/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup(?:/)?$"
+    },
+    {
+      "page": "/specialities",
+      "regex": "^/specialities(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/specialities(?:/)?$"
+    },
+    {
+      "page": "/verify-otp",
+      "regex": "^/verify\\-otp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/verify\\-otp(?:/)?$"
+    },
+    {
+      "page": "/vision-mission",
+      "regex": "^/vision\\-mission(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/vision\\-mission(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

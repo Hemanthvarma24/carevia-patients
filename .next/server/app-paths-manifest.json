@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/appointments/page": "app/appointments/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/health-resources/page": "app/health-resources/page.js",
+  "/page": "app/page.js",
+  "/profile-setup/page": "app/profile-setup/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/profile/share/page": "app/profile/share/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/verify-otp/page": "app/verify-otp/page.js"
+}
